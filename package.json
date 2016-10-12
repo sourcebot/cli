@@ -1,0 +1,32 @@
+{
+  "name": "sourcebot-cli",
+  "version": "0.1.0",
+  "description": "Sourcebot command line tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourcebot/cli.git"
+  },
+  "keywords": [
+    "sourcebot",
+    "bot",
+    "framework",
+    "cli",
+    "command",
+    "line",
+    "tool"
+  ],
+  "author": "Yagiz Nizipli <yagiznizipli@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sourcebot/cli/issues"
+  },
+  "homepage": "https://github.com/sourcebot/cli#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "commander": "^2.9.0"
+  }
+}
