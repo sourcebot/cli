@@ -36,11 +36,11 @@ app
         };
 
         return Promise
-          .all(
+          .all([
             sourcebot.createFile('package.json', JSON.stringify(packageJson, null, 2)),
             sourcebot.createFile('index.js', require('./templates')),
             sourcebot.createFile('.gitignore', 'node_modules/')
-          )
+          ]);
       })
       .catch(err => console.error(`Sourcebot: ${err.message}`))
   });
