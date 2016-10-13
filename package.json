@@ -1,6 +1,6 @@
 {
   "name": "sourcebot-cli",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Sourcebot command line tool",
   "main": "index.js",
   "scripts": {
