@@ -1,6 +1,8 @@
 SourceBot-Cli
 ===================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sourcebot/cli.svg)](https://greenkeeper.io/)
+
 
 Using this client-tool you can easily create boilerplates for your SourceBot projects.
 
